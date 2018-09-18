@@ -21,8 +21,8 @@ function currentLine(line) {
    return (`The line is currently empty.`)}
    else {
  var currentLine = [];
- for (let i = 0; i<line.length; i++){
-   currentLine.push(`${i+1}. ${line[i]}`);
+ for (let i = 0; i < line.length; i++) {
+   currentLine.push(` ${i+1}. ${line[i]}`);
  }
  return (`The line is currently:`+ currentLine);
    }
