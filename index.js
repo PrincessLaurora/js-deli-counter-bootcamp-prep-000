@@ -5,3 +5,6 @@ position.push(`${name}`);
 return (`Welcome, ${name}. You are number ${position.length} in line.`);
 }
 
+function nowServing (position) {
+  
+}
