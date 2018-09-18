@@ -13,5 +13,5 @@ function nowServing (position) {
   if (position === 0) {
   return (`There is nobody waiting to be served!`)}
   }
-  var 
-  position.shift 
+  var Newposition = position.shift(`${name}`)
+  
