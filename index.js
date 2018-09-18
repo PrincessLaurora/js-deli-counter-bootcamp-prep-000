@@ -1,5 +1,5 @@
 function takeANumber (position, name) {
-position.push(`Welcome, ${name}. You are number ${position[i]}in the line.`);i++;}
+position.push(${name}. You are number ${position}in the line.`);
 return otherDeli;
 }
 
