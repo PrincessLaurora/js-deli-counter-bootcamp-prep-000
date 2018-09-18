@@ -14,5 +14,5 @@ function nowServing (position) {
   return (`There is nobody waiting to be served!`)}
   }
   if (position  === 1) {
-    return (`)
+    return position.shift ()
   }
