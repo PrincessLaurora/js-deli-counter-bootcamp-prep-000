@@ -8,5 +8,8 @@ return (`Welcome, ${name}. You are number ${position.length} in line.`);
 function nowServing (position) {
   position.shift(`${name}`);
   return (`Now serving ${name}`);
-  if (position.length === 0)
-}
+  if (position.length === 0) {
+   return (`)
+    
+    
+  }
