@@ -20,9 +20,8 @@ function currentLine(line) {
  if (line.length === 0) {
    return (`The line is currently empty.`)}
  line = 
- 
  else 
- return ('The line ')
+ return ('The line is currently: 1')
  
   
 }
