@@ -13,3 +13,4 @@ function nowServing (position) {
   if (position === 0) {
   return (`There is nobody waiting to be served!`)}
   }
+  var name = posi
