@@ -16,4 +16,6 @@ function nowServing (position) {
   return (`Currently serving ${position.shift()}.`);
 }
 
-function 
+function currentLine(line) {
+  
+}
