@@ -9,7 +9,5 @@ function nowServing (position) {
   position.shift(`${name}`);
   return (`Now serving ${name}`);
   if (position.length === 0) {
-   return (`)
-    
-    
+  return (`There is nobody waiting to be served!`)}
   }
