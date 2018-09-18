@@ -19,9 +19,9 @@ function nowServing (position) {
 function currentLine(line) {
  if (line.length === 0) {
    return (`The line is currently empty.`)}
- else {
- for i = 0; i>line.length, i++){
-   line.push 
+ var currentLine = []
+ for (let i = 0; i>line.length, i++){
+   
  }
  return (`The line is currently ${line.length}. .`);
  
