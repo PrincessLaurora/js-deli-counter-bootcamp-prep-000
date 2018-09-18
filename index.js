@@ -10,9 +10,10 @@ return (`Welcome, ${name}. You are number ${position.length} in line.`);
 
 
 function nowServing (position) {
-  if (position === 0) {
-  return (`There is nobody waiting to be served!`)}
+  var name = position.shift ();
+  if (position.length  === 1) {
+    return (`Currently serving ${position.shift}`);
   }
-  if (position  === 1) {
-    return position.shift ()
+  else if (position.length === 0) {
+  return (`There is nobody waiting to be served!`)}
   }
